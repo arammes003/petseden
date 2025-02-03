@@ -10,6 +10,7 @@ header {
   color: black;
   padding: 1em;
   display: flex;
+  margin-bottom: 10px;
 }
 
 .logo {
@@ -32,8 +33,6 @@ nav a {
 }
 
 nav a:hover {
-  transition: ease-in-out 0.3s;
-  font-size: 2em;
   color: white;
 }
 
