@@ -1,0 +1,51 @@
+.servicios {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2em;
+  margin: 1% 4% 10% 4%;
+  place-items: center;
+}
+
+.articleServiciosGeneral {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.articleServicios {
+  background-color: #d2f1de;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 35vh;
+  width: 15vw;
+}
+
+.articleServicios img {
+  height: 12em;
+  width: fit-content;
+}
+
+.articleServicios h2 {
+  font-size: x-large;
+}
+
+.articleServiciosGeneral button {
+  background-color: #69d191;
+  padding: 10px 20px;
+  font-size: large;
+  font-weight: 600;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 0.5s ease-in-out;
+  margin-top: 10px;
+}
+
+.articleServiciosGeneral button:hover {
+  transform: scale(1.1);
+}
