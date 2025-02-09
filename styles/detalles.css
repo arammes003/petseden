@@ -1,0 +1,32 @@
+.sectionComoTrabajamos {
+  display: flex;
+  margin: 0 6%;
+  justify-content: center;
+  align-items: center;
+}
+
+.sectionComoTrabajamos p {
+  font-size: 2.5vh;
+  text-align: justify;
+}
+
+.sectionComoTrabajamos img {
+  border-radius: 20%;
+  padding: 2em;
+  width: 100%;
+  max-width: 300px;
+}
+
+.mejoresCaracteristicas {
+  border-radius: 20px;
+  height: 30em;
+  margin: 0 6%;
+  background-color: #d2f1de;
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  justify-content: space-evenly;
+  text-align: center;
+  align-items: center;
+  margin-bottom: 4em;
+}
