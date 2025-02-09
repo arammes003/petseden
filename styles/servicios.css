@@ -1,16 +1,15 @@
 .servicios {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 2em;
-  margin: 1% 4% 10% 4%;
+  margin: 1% 4% 5% 4%;
   place-items: center;
+  width: 93%;
 }
 
 .articleServiciosGeneral {
-  justify-content: center;
-  align-items: center;
   display: flex;
   flex-direction: column;
+  margin-bottom: 5em;
 }
 
 .articleServicios {
@@ -22,7 +21,7 @@
   justify-content: center;
   align-items: center;
   height: 35vh;
-  width: 15vw;
+  width: 20vw;
 }
 
 .articleServicios img {
@@ -48,4 +47,24 @@
 
 .articleServiciosGeneral button:hover {
   transform: scale(1.1);
+}
+
+@media (max-width: 1200px) {
+  .servicios {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .articleServicios {
+    width: 30vw;
+  }
+}
+
+@media (max-width: 768px) {
+  .servicios {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .articleServicios {
+    width: 40vw;
+  }
 }
