@@ -1,5 +1,6 @@
 .sectionComoTrabajamos {
   display: flex;
+  width: 90%;
   margin: 0 6%;
   justify-content: center;
   align-items: center;
@@ -28,5 +29,28 @@
   justify-content: space-evenly;
   text-align: center;
   align-items: center;
-  margin-bottom: 4em;
+  margin-bottom: 1em;
+}
+
+.sectionCaracteristicas {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sectionCaracteristicas button {
+  width: 400px;
+
+  background-color: #69d191;
+  font-family: "poppins", sans-serif;
+  font-size: x-large;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+  margin-bottom: 2em;
+}
+
+.sectionCaracteristicas button:hover {
+  transform: scale(1.1);
 }
