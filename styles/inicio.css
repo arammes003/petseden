@@ -39,7 +39,6 @@
   object-fit: cover;
 }
 
-/* Responsive Design */
 @media (max-width: 768px) {
   .sectionBanner {
     flex-direction: column;
