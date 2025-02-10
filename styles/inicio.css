@@ -1,5 +1,4 @@
 .sectionBanner {
-  width: 99vw;
   position: relative;
   display: flex;
   justify-content: center;
@@ -57,10 +56,9 @@
 
 .sectionComoTrabajamos {
   display: flex;
-  margin: 1% 4%;
-  padding: 20px;
+  margin: 0% 6%;
+  padding: 2em;
 
-  gap: 1em;
   background-color: #d2f1de;
   border-radius: 20px;
   justify-content: center;
@@ -68,7 +66,7 @@
 }
 
 .sectionComoTrabajamos p {
-  margin: 0 4vw;
+  margin: 2em;
   font-size: 2.5vh;
   text-align: justify;
 }
@@ -76,15 +74,11 @@
 .sectionComoTrabajamos img {
   padding: 2em;
   width: 100%;
-  max-width: 300px;
+  max-width: 400px;
 }
 
 @media (max-width: 1024px) {
   .sectionComoTrabajamos {
     flex-wrap: wrap;
-  }
-
-  .sectionComoTrabajamos p {
-    margin: 10px;
   }
 }
