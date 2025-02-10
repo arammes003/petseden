@@ -3,7 +3,6 @@
   grid-template-columns: repeat(3, 1fr);
   margin: 1% 4% 5% 4%;
   place-items: center;
-  width: 93%;
 }
 
 .articleServiciosGeneral {
@@ -22,6 +21,8 @@
   align-items: center;
   height: 35vh;
   width: 20vw;
+  gap: 2em;
+  cursor: pointer;
 }
 
 .articleServicios img {
@@ -31,6 +32,18 @@
 
 .articleServicios h2 {
   font-size: x-large;
+}
+
+.articleServicios img,
+.articleServicios h2,
+.articleServicios p {
+  transition: all 0.5s ease-in-out;
+}
+
+.articleServicios:hover img,
+.articleServicios:hover h2,
+.articleServicios:hover p {
+  transform: scale(1.1);
 }
 
 .articleServiciosGeneral button {
