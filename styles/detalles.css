@@ -1,4 +1,4 @@
-.sectionComoTrabajamos {
+.sectionDetalles {
   display: flex;
   width: 90%;
   margin: 0 6%;
@@ -6,12 +6,12 @@
   align-items: center;
 }
 
-.sectionComoTrabajamos p {
+.sectionDetalles p {
   font-size: 2.5vh;
   text-align: justify;
 }
 
-.sectionComoTrabajamos img {
+.sectionDetalles img {
   border-radius: 20%;
   padding: 2em;
   width: 100%;
@@ -20,8 +20,9 @@
 
 .mejoresCaracteristicas {
   border-radius: 20px;
-  height: 30em;
-  margin: 0 6%;
+  height: 100%;
+  width: 88%;
+  margin: 2% 6%;
   background-color: #d2f1de;
   display: flex;
   position: relative;
@@ -53,4 +54,33 @@
 
 .sectionCaracteristicas button:hover {
   transform: scale(1.1);
+}
+
+.mejoresCaracteristicas hr {
+  width: 5px;
+  height: auto;
+  min-height: 30em;
+  background-color: #69d191;
+  border: none;
+}
+
+@media (max-width: 1024px) {
+  .sectionDetalles {
+    flex-wrap: wrap;
+  }
+
+  .sectionDetalles img {
+    max-width: 500px;
+  }
+
+  .mejoresCaracteristicas {
+    flex-direction: column;
+  }
+
+  .mejoresCaracteristicas hr {
+    width: 100%;
+    height: 5px;
+    min-height: auto;
+    margin: 5%;
+  }
 }
