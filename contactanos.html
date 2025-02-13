@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contacta con nosotros</title>
     <link rel="stylesheet" href="./styles/header.css" />
+    <link rel="stylesheet" href="./styles/contactanos.css">
+    <link rel="stylesheet" href="./styles/footer.css">
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
       rel="stylesheet"
@@ -45,71 +47,69 @@
       </nav>
     </header>
     <main>
-      <section>
-        <h1>Contacta con nosotros</h1>
+        <h2 style="margin: 4vh 6%; font-size: xx-large; font-weight: bolder">
+            Contacta con nosotros
+        </h2>
+      <section class="general_seccion">
         <form>
-          <article>
-            <label>Nombre</label>
+          <article class="nombre">
+            <label>Nombre</label><br>
             <input type="text" placeholder="Nombre" />
           </article>
-          <article>
-            <label>Correo Electrónico</label>
+          <article class="correo">
+            <label>Correo Electrónico</label><br>
             <input type="email" placeholder="Correo Electrónico" />
           </article>
-          <article>
-            <label>Mensaje</label>
+          <article class="telefono">
+            <label>Telefono</label><br>
+            <input type="tel" placeholder="Teléfono"></input>
+          </article>
+          <article class="mensaje">
+            <label>Mensaje</label><br>
             <textarea rows="5" placeholder="Tu mensaje..."></textarea>
           </article>
-          <button type="button">Enviar</button>
+          <article class="boton">
+            <button type="submit">Enviar</button>
+          </article>
         </form>
+        <h2 style="margin: 2vh 3%; font-size: xx-large; font-weight: bolder">Donde nos encontramos</h2>
+        <section class="section-image">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3206.347077973301!2d-6.283225163314788!3d36.52162015112862!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd0dd3d2efbb9b43%3A0xe0defd8ea82e66ce!2sCafeter%C3%ADa%20Los%20Lunares!5e0!3m2!1ses!2ses!4v1739475143427!5m2!1ses!2ses" width="800" height="450" style="border:0; border-radius: 20px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>        </section>
+        
       </section>
-      <section>
-        <h1>Donde nos encontramos</h1>
-        <img src="images/image copy 4.png" width="500px" />
-      </section>
+      
     </main>
     <footer>
-      <table>
-        <tr>
-          <thead>
-            <th></th>
-            <th><h3>Servicios</h3></th>
-            <th><h3>Contacto</h3></th>
-          </thead>
-        </tr>
-        <tr>
-          <td>
-            <img
-              src="./images/logo.jpeg"
-              height="150px"
-              alt="Logo de Pets Eden"
-            />
-          </td>
-          <td>
-            <ul>
-              <li>Guardería de mascotas</li>
-              <li>Alojamiento de mascotas</li>
-              <li>Servicio de paseo</li>
-              <li>Alimentación personalizada</li>
-              <li>Spa de mascotas</li>
-              <li>Veterinaria</li>
-            </ul>
-          </td>
-          <td>
-            <img
-              src="./images/logotipo-de-instagram.png"
-              alt="instagram"
-              width="20px"
-            />
-            <img src="./images/gorjeo.png" alt="x" width="20px" />
-            <img src="./images/whatsapp.png" alt="whatsapp" width="20px" />
-            <img src="./images/facebook.png" alt="facebook" width="20px" />
-            <p>info@petseden.es</p>
-            <p>Calle inventada, 10, Cádiz</p>
-          </td>
-        </tr>
-      </table>
-      <small>©Copyrigth PetsEden</small>
-    </footer>
+        <img
+          src="./images/Logo-PetsEden.png"
+          class="logoFooter"
+          alt="Logo PetsEden"
+        />
+        <article class="serviciosFooter">
+          <h2 class="tituloFooter">Servicios</h2>
+          <a href="detalles.html"> <p>Guardería de mascotas</p></a>
+          <a href="detalles.html"><p>Alojamiento de mascotas</p></a>
+          <a href="detalles.html"><p>Servicio de paseo</p></a>
+          <a href="detalles.html"><p>Alimentación personalizada</p></a>
+          <a href="detalles.html"><p>Spa de mascotas</p></a>
+          <a href="detalles.html"><p>Veterinaria</p></a>
+        </article>
+        <article class="contactoFooter">
+          <h2 class="tituloFooter">Contacto</h2>
+          <img
+            src="./images/logotipo-de-instagram.png"
+            alt="instagram"
+            width="20px"
+          />
+          <img src="./images/gorjeo.png" alt="x" width="20px" />
+          <img src="./images/whatsapp.png" alt="whatsapp" width="20px" />
+          <img src="./images/facebook.png" alt="facebook" width="20px" />
+          <p>info@petseden.es</p>
+          <p>Calle inventada, 10, Cádiz</p>
+        </article>
+        <article class="copyright">
+          <small>©Copyright PetsEden </small>
+        </article>
+      </footer>
   </body>
 </html>
