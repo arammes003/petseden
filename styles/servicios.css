@@ -19,13 +19,14 @@
   text-align: center;
   justify-content: center;
   align-items: center;
-  height: 35vh;
+  height: 35%;
   width: 20vw;
   gap: 2em;
   cursor: pointer;
 }
 
 .articleServicios img {
+  padding: 20px;
   height: 12em;
   width: fit-content;
 }
@@ -44,6 +45,11 @@
 .articleServicios:hover h2,
 .articleServicios:hover p {
   transform: scale(1.1);
+}
+
+.articleServiciosGeneral a {
+  color: inherit;
+  font-size: x-large;
 }
 
 .articleServiciosGeneral button {
