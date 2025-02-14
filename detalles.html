@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>PetsEden | Detalles</title>
+    <link rel="stylesheet" href="./styles/general.css" />
     <link rel="stylesheet" href="./styles/header.css" />
     <link rel="stylesheet" href="./styles/detalles.css" />
     <link rel="stylesheet" href="./styles/footer.css" />
@@ -46,13 +47,10 @@
         </a>
       </nav>
     </header>
+
     <main>
       <section>
-        <h2
-          style="margin: 2% 6% 0 6%; font-size: xx-large; font-weight: bolder"
-        >
-          Detalles de nuestra Guardería
-        </h2>
+        <h2 class="titulo">Detalles de nuestra Guardería</h2>
         <section class="sectionDetalles">
           <p>
             En nuestra guardería, tu mascota disfrutará de un ambiente seguro,
@@ -68,9 +66,10 @@
             entretenida, relajada y en las mejores manos mientras tú tienes la
             tranquilidad de saber que está siendo bien cuidada.
           </p>
-          <img src="/images/guarderia-foto.png" />
+          <img src="/images/guarderia-foto.png" alt="Imagen Guardería" />
         </section>
       </section>
+
       <section class="sectionCaracteristicas">
         <section class="mejoresCaracteristicas">
           <article>
@@ -79,9 +78,7 @@
               alt="Icono Supervisión Profesional"
               style="width: 50%"
             />
-            <h3 style="font-size: xx-large; font-weight: 600">
-              Supervisión Profesional
-            </h3>
+            <h3 class="tituloCaracteristicas">Supervisión Profesional</h3>
           </article>
           <hr />
           <article>
@@ -90,9 +87,7 @@
               alt="Icono Atención Personalizada"
               style="width: 50%"
             />
-            <h3 style="font-size: xx-large; font-weight: 600">
-              Atención Personalizada
-            </h3>
+            <h3 class="tituloCaracteristicas">Atención Personalizada</h3>
           </article>
           <hr />
           <article>
@@ -101,20 +96,21 @@
               alt="Icono Atención Personalizada"
               style="width: 50%"
             />
-            <h3 style="font-size: xx-large; font-weight: 600">
-              Entorno Seguro y Cómodo
-            </h3>
+            <h3 class="tituloCaracteristicas">Entorno Seguro y Cómodo</h3>
           </article>
         </section>
-        <button>Reservar por 99,99€ P/D</button>
+        <button>
+          <a href="error404.html"> Reservar por 99,99€ P/D </a>
+        </button>
       </section>
-      <section>
-        <section>
-          <img
-            src="./images/guarderia.jpeg"
-            width="88%"
-            style="object-fit: contain; margin: 0 6%; border-radius: 20px"
-          />
+
+      <h2 class="titulo">Cómo es nuestra Guardería</h2>
+      <section class="sectionVideo">
+        <section class="video">
+          <video width="90%" height="500px" controls>
+            <source src="./images/video.mp4" type="video/mp4" />
+            Tu navegador no soporta vídeos HTML5.
+          </video>
         </section>
       </section>
     </main>

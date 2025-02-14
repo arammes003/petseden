@@ -41,6 +41,7 @@
 
 .sectionCaracteristicas button {
   width: 400px;
+  height: 50px;
 
   background-color: #69d191;
   font-family: "poppins", sans-serif;
@@ -83,4 +84,15 @@
     min-height: auto;
     margin: 5%;
   }
+}
+
+.tituloCaracteristicas {
+  font-size: xx-large;
+  font-weight: 600;
+}
+
+.sectionVideo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
